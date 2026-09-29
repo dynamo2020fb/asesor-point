@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://solucionesdecobro-zonanorte.com.ar/sitemap.xml
+Sitemap: https://solucionesdecobro.com.ar/sitemap.xml
