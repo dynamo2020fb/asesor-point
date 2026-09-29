@@ -1,0 +1,1861 @@
+<!DOCTYPE html>
+<html class="dark scroll-smooth" lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+  <title>Tu Point Smart en Zona Norte | Ariel · Asesoría Comercial</title>
+  
+  <!-- SEO & Metadatos Editoriales -->
+  <meta name="description" content="Tu Point Smart para empezar a cobrar con tarjeta y QR. Asesoría comercial personalizada para nuevos comercios en Tigre, San Fernando, San Isidro y Vicente López."/>
+  <meta name="keywords" content="Point Smart, Mercado Pago Point Smart, cobrar con tarjeta, cobrar con QR, Point para comercios, Zona Norte, San Fernando, Tigre, San Isidro, Vicente Lopez"/>
+  <meta name="author" content="Ariel · Asesoría Comercial Independiente"/>
+  <link rel="canonical" href="https://solucionesdecobro-zonanorte.com.ar/"/>
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Tu Point Smart en Zona Norte | Asesoría Comercial Independiente"/>
+  <meta property="og:description" content="Empezá a cobrar con tarjeta y QR en tu comercio. Entrega coordinada, configuración y acompañamiento inicial en Zona Norte."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="img/point-smart.webp"/>
+  <meta property="og:locale" content="es_AR"/>
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+  <link rel="alternate icon" href="favicon.ico"/>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "canvas": "#0B0E14",
+            "surface": "#121722",
+            "surface-elevated": "#181F2E",
+            "surface-border": "rgba(255, 255, 255, 0.08)",
+            "primary-accent": "#009EE3",
+            "whatsapp": "#25D366",
+            "whatsapp-hover": "#20BD5A",
+            "text-main": "#F8FAFC",
+            "text-muted": "#94A3B8",
+            "text-subtle": "#64748B"
+          },
+          fontFamily: {
+            "title": ["'Plus Jakarta Sans'", "sans-serif"],
+            "body": ["'Inter'", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ariel · Asesoría Comercial Point Smart Zona Norte",
+    "description": "Asesoría comercial y entrega presencial de terminales Point Smart para nuevos comercios en Zona Norte.",
+    "telephone": "+5491165114110",
+    "areaServed": ["San Fernando", "Tigre", "San Isidro", "Vicente López"],
+    "currenciesAccepted": "ARS"
+  }
+  </script>
+
+  <style>
+    body {
+      background-color: #0B0E14;
+      color: #F8FAFC;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .panel-card {
+      background-color: #121722;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .panel-card:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 35px rgba(0,0,0,0.4);
+    }
+    .tabular-numbers {
+      font-variant-numeric: tabular-nums;
+    }
+    .safe-bottom {
+      padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+    }
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: #FFFFFF;
+      transition: all 0.2s ease-in-out;
+    }
+    .btn-whatsapp:hover {
+      background-color: #20BD5A;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(37,211,102,0.35);
+    }
+    .btn-whatsapp:active {
+      transform: translateY(0);
+    }
+
+    /* ── Scroll-reveal ────────────────────────────────── */
+    .sr {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s cubic-bezier(.22,1,.36,1), transform 0.5s cubic-bezier(.22,1,.36,1);
+    }
+    .sr.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .sr-delay-1 { transition-delay: 0.1s; }
+    .sr-delay-2 { transition-delay: 0.2s; }
+    .sr-delay-3 { transition-delay: 0.3s; }
+    .sr-delay-4 { transition-delay: 0.4s; }
+
+    /* ── Trust payment badges ── */
+    .pay-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: #FFFFFF;
+      border: 1px solid rgba(255,255,255,0.9);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 1px 3px rgba(0,0,0,0.08);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+      color: #0F172A;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .pay-badge:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,158,227,0.25);
+    }
+
+    /* ── FAQ Accordion ───────────────────────────────── */
+    .faq-item {
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 18px 0;
+      text-align: left;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      color: #F8FAFC;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .faq-btn:hover { color: #fff; }
+    .faq-chevron {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      color: #64748B;
+      transition: transform 0.3s cubic-bezier(.22,1,.36,1), color 0.2s;
+    }
+    .faq-btn[aria-expanded="true"] .faq-chevron {
+      transform: rotate(180deg);
+      color: #009EE3;
+    }
+    .faq-answer {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 0.35s cubic-bezier(.22,1,.36,1);
+    }
+    .faq-answer.open {
+      grid-template-rows: 1fr;
+    }
+    .faq-answer-inner {
+      overflow: hidden;
+    }
+    .faq-answer-inner p {
+      padding-bottom: 16px;
+      font-size: 14px;
+      color: #94A3B8;
+      line-height: 1.65;
+    }
+
+    /* ── Accent gradient text ────────────────────────── */
+    .gradient-text {
+      background: linear-gradient(135deg, #009EE3 0%, #00C2FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* ── Active navigation state (Scroll Spy) ─────────────── */
+    .mobile-nav-pill,
+    .desktop-nav-link {
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: #94A3B8;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .mobile-nav-pill:hover,
+    .desktop-nav-link:hover {
+      color: #FFFFFF;
+      background: rgba(255, 255, 255, 0.10);
+    }
+    .mobile-nav-pill.active,
+    .desktop-nav-link.active {
+      background: #009EE3 !important;
+      border-color: #00C2FF !important;
+      color: #FFFFFF !important;
+      font-weight: 700 !important;
+      box-shadow: 0 0 14px rgba(0, 158, 227, 0.45) !important;
+    }
+
+    /* ── Mobile Sticky Bottom Bar ─────────────────────────── */
+    .mobile-sticky-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 45;
+      background: rgba(11, 14, 20, 0.95);
+      backdrop-filter: blur(12px);
+      border-top: 1px solid rgba(255, 255, 255, 0.10);
+      padding: 10px 16px;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+
+<body class="selection:bg-primary-accent selection:text-white pb-16 md:pb-0">
+
+  <!-- HEADER BRANDING -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-[#0B0E14]/95 backdrop-blur-md border-b border-white/[0.06]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-8 flex flex-col justify-center">
+      
+      <!-- Fila Principal -->
+      <div class="h-16 sm:h-20 flex items-center justify-between gap-4">
+        
+        <!-- Logo & Marca Comercial -->
+        <a href="#" class="flex flex-col items-start text-left">
+          <div class="flex items-center gap-2">
+            <span class="font-title font-extrabold text-[15px] sm:text-lg tracking-tight text-white whitespace-nowrap">
+              SOLUCIONES DE COBRO
+            </span>
+            <span class="text-primary-accent font-bold text-[10px] sm:text-xs uppercase px-2 py-0.5 rounded bg-primary-accent/10 border border-primary-accent/20 whitespace-nowrap">
+              Zona Norte
+            </span>
+          </div>
+          <span class="text-[9.5px] sm:text-[11px] text-text-subtle tracking-wider uppercase font-title font-medium pt-0.5 whitespace-nowrap">
+            Ariel · Asesoría Comercial Independiente
+          </span>
+        </a>
+
+        <!-- Navegación Desktop (Píldoras Flotantes con Glow) -->
+        <nav class="hidden lg:flex items-center gap-1.5 font-title text-[11px] font-semibold tracking-wider uppercase">
+          <a href="#hero" class="desktop-nav-link">Point Smart</a>
+          <a href="#costo-no-aceptar" class="desktop-nav-link">Cobros</a>
+          <a href="#proceso" class="desktop-nav-link">Acompañamiento</a>
+          <a href="#beneficios" class="desktop-nav-link">Beneficios</a>
+          <a href="#rubros" class="desktop-nav-link">Rubros</a>
+          <a href="#tasas" class="desktop-nav-link">Tasas</a>
+          <a href="#cobertura" class="desktop-nav-link">Zona Norte</a>
+          <a href="#envios-nacionales" class="desktop-nav-link">Envíos País</a>
+          <a href="#faq" class="desktop-nav-link">FAQ</a>
+        </nav>
+
+        <!-- Botón Header (Solo visible en Desktop/Tablet) -->
+        <div class="hidden sm:flex items-center gap-3">
+          <button onclick="openQualificationModal()" 
+             class="btn-whatsapp inline-flex items-center gap-2 px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-lg font-title text-xs font-bold tracking-wide shadow-sm cursor-pointer">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>WhatsApp</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Barra de Navegación Móvil -->
+      <nav id="mobileNavContainer" class="lg:hidden flex items-center gap-2 overflow-x-auto pb-3 pt-1 border-t border-white/[0.04] text-[11px] font-title font-semibold uppercase tracking-wider text-text-muted" style="scrollbar-width: none; -ms-overflow-style: none;">
+        <a href="#hero" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Point Smart</a>
+        <a href="#costo-no-aceptar" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Cobros</a>
+        <a href="#proceso" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Acompañamiento</a>
+        <a href="#beneficios" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Beneficios</a>
+        <a href="#rubros" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Rubros</a>
+        <a href="#tasas" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Tasas</a>
+        <a href="#cobertura" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Zona Norte</a>
+        <a href="#envios-nacionales" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">Envíos País</a>
+        <a href="#faq" class="mobile-nav-pill px-3 py-1 rounded-full bg-white/[0.04] border border-white/[0.08] hover:text-white hover:bg-white/10 whitespace-nowrap transition-all">FAQ</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="pt-24 sm:pt-24 pb-20 flex flex-col gap-20 sm:gap-28">
+
+    <!-- 01 — QUÉ ES: HERO SECTION (JERARQUÍA EXACTA) -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 pt-4 sm:pt-10 w-full" id="hero">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <!-- Bloque de Texto -->
+        <div class="lg:col-span-7 flex flex-col gap-5">
+          
+          <div class="flex flex-col gap-2.5">
+            <!-- EYEBROW -->
+            <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-whatsapp animate-pulse"></span>
+              ASESORÍA COMERCIAL · ZONA NORTE
+            </span>
+
+            <!-- TÍTULO PRINCIPAL -->
+            <h1 class="font-title font-extrabold text-3xl sm:text-5xl lg:text-[46px] tracking-tight text-white leading-[1.12]">
+              Tu Point Smart para empezar a cobrar con tarjeta y QR.
+            </h1>
+          </div>
+
+          <!-- SUBTÍTULO -->
+          <p class="text-base sm:text-lg text-text-muted leading-relaxed font-normal">
+            Atención comercial personalizada para nuevos comercios de Zona Norte. Coordinamos la entrega y activación de tu equipo.
+          </p>
+
+          <!-- FOTO POINT SMART EN MOBILE (DENTRO DEL VIEWPORT) -->
+          <div class="lg:hidden w-full flex justify-center py-2">
+            <div class="w-full max-w-xs rounded-2xl bg-surface p-5 border border-white/[0.08] shadow-xl flex flex-col items-center">
+              <div class="relative w-full py-2 flex items-center justify-center min-h-[200px] rounded-xl overflow-hidden"
+                   style="background: radial-gradient(circle at center, rgba(0, 158, 227, 0.16) 0%, rgba(18, 23, 34, 0.4) 70%);">
+                <img src="img/point-smart.webp" 
+                     alt="Mercado Pago Point Smart" 
+                     class="w-full max-w-[190px] h-auto object-contain"
+                     style="filter: drop-shadow(0 14px 28px rgba(0,0,0,0.7));"
+                     width="190" height="225" />
+              </div>
+              <div class="w-full grid grid-cols-2 gap-2 pt-2 mt-2 border-t border-white/[0.06] text-[11px] text-center">
+                <span class="text-white font-medium">Chip 4G + Wi-Fi</span>
+                <span class="text-white font-medium">Ticket térmico</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA PRINCIPAL -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 pt-1">
+            <button onclick="openQualificationModal()" 
+               class="btn-whatsapp inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl font-title font-bold text-sm sm:text-base tracking-wide shadow-lg cursor-pointer">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>SOLICITÁ TU POINT SMART →</span>
+            </button>
+            
+            <a href="#proceso" 
+               class="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-surface hover:bg-surface-elevated border border-white/10 text-white font-title font-semibold text-sm transition-all">
+              <span>Cómo trabajamos</span>
+            </a>
+          </div>
+
+          <!-- TEXTO SECUNDARIO & CONDICIONES -->
+          <div class="flex flex-col gap-1 pt-1 text-xs text-text-subtle">
+            <span class="font-title font-semibold text-text-muted">
+              San Fernando · Tigre · San Isidro · Vicente López · Otras zonas consultar disponibilidad
+            </span>
+            <span class="text-[11px]">
+              Monotributistas y Responsables Inscriptos. Sujeto a condiciones comerciales vigentes.
+            </span>
+          </div>
+
+        </div>
+
+        <!-- PRODUCTO EN DESKTOP (PROTAGONISTA VISUAL REAL) -->
+        <div class="hidden lg:flex lg:col-span-5 relative justify-center">
+          <div class="w-full max-w-sm rounded-2xl bg-surface p-6 border border-white/[0.08] shadow-2xl flex flex-col items-center gap-4">
+            
+            <div class="w-full flex items-center justify-between pb-3 border-b border-white/[0.06] text-xs">
+              <span class="font-title font-bold tracking-wider uppercase text-text-muted">Mercado Pago Point Smart</span>
+              <span class="text-whatsapp font-title font-semibold flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-whatsapp animate-pulse"></span>
+                1 Año de Garantía
+              </span>
+            </div>
+
+            <!-- Fotografía REAL del Point Smart -->
+            <div class="relative w-full py-4 flex items-center justify-center min-h-[270px] rounded-xl overflow-hidden"
+                 style="background: radial-gradient(circle at center, rgba(0, 158, 227, 0.18) 0%, rgba(18, 23, 34, 0.4) 70%);">
+              <img src="img/point-smart.webp" 
+                   alt="Mercado Pago Point Smart" 
+                   class="w-full max-w-[235px] h-auto object-contain transition-transform duration-300 hover:scale-105"
+                   style="filter: drop-shadow(0 20px 35px rgba(0,0,0,0.75)) drop-shadow(0 0 20px rgba(0,158,227,0.20));"
+                   width="235" height="280" />
+            </div>
+
+            <!-- Etiquetas de Hardware -->
+            <div class="w-full grid grid-cols-2 gap-3 pt-2 border-t border-white/[0.06] text-xs">
+              <div class="flex flex-col">
+                <span class="text-text-subtle text-[11px] uppercase tracking-wider font-title font-semibold">Conectividad</span>
+                <span class="text-white font-medium">Chip 4G + Wi-Fi</span>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-text-subtle text-[11px] uppercase tracking-wider font-title font-semibold">Impresora</span>
+                <span class="text-white font-medium">Ticket térmico</span>
+              </div>
+            </div>
+
+            <!-- Cobro con todos los medios -->
+            <div class="w-full pt-2.5 border-t border-white/[0.06] flex items-center justify-center text-[11px] text-text-muted font-medium text-center">
+              <span>Acepta Débito, Crédito, Contactless y QR Interoperable</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 02 — POR QUÉ LO NECESITÁS: EL COSTO DE NO ACEPTAR TODOS LOS MEDIOS DE PAGO -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full" id="costo-no-aceptar">
+      <div class="flex flex-col gap-10">
+        
+        <div class="flex flex-col gap-2.5 max-w-3xl sr">
+          <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+            EFICIENCIA COMERCIAL
+          </span>
+          <h2 class="font-title font-bold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight">
+            ¿Cuánto te puede costar no aceptar todos los medios de pago?
+          </h2>
+          <p class="text-base text-text-muted leading-relaxed">
+            No se trata solamente de cómo cobrás. También de cuántas ventas estás en condiciones de concretar en tu mostrador.
+          </p>
+        </div>
+
+        <!-- 3 Bloques Editoriales con Bordes de Acento y Micro-interacción -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+          
+          <!-- Bloque 01: Azul Eléctrico -->
+          <div class="panel-card p-6 sm:p-7 rounded-2xl border-t-2 border-t-primary-accent/70 flex flex-col gap-4 sr sr-delay-1">
+            <span class="font-title font-black text-3xl text-primary-accent tabular-numbers">01</span>
+            <h3 class="font-title font-bold text-lg text-white">Clientes que se van</h3>
+            <p class="text-sm text-text-muted leading-relaxed">
+              Si tu cliente no puede pagar con el medio que tiene a mano, puede terminar comprando en otro comercio. Aceptar tarjetas físicas, contactless y pagos QR amplía directamente tus oportunidades de venta.
+            </p>
+          </div>
+
+          <!-- Bloque 02: Ámbar Cálido -->
+          <div class="panel-card p-6 sm:p-7 rounded-2xl border-t-2 border-t-[#F59E0B]/70 flex flex-col gap-4 sr sr-delay-2">
+            <span class="font-title font-black text-3xl text-[#F59E0B] tabular-numbers">02</span>
+            <h3 class="font-title font-bold text-lg text-white">Menos uso de efectivo</h3>
+            <p class="text-sm text-text-muted leading-relaxed">
+              Cada vez más personas utilizan tarjetas de débito, crédito y billeteras virtuales para sus compras de todos los días. El Point Smart te permite responder a ese hábito con agilidad y ticket en mano.
+            </p>
+          </div>
+
+          <!-- Bloque 03: Verde Seguridad -->
+          <div class="panel-card p-6 sm:p-7 rounded-2xl border-t-2 border-t-whatsapp/70 flex flex-col gap-4 sr sr-delay-3">
+            <span class="font-title font-black text-3xl text-whatsapp tabular-numbers">03</span>
+            <h3 class="font-title font-bold text-lg text-white">Verificá el pago en caja</h3>
+            <p class="text-sm text-text-muted leading-relaxed">
+              Una captura de pantalla enviada por celular no reemplaza la confirmación real. Al cobrar con terminal Point o QR, el cobro se confirma en pantalla y comprobás el ingreso antes de entregar el producto.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 03 & 04 — POR QUÉ CON ARIEL: NO TE ENTREGO SOLAMENTE EL EQUIPO -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full" id="proceso">
+      <div class="panel-card p-8 sm:p-12 rounded-3xl border border-white/[0.08] bg-gradient-to-b from-[#121826] to-[#0D111A] flex flex-col gap-10">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+          <div class="flex flex-col gap-2 max-w-2xl">
+            <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+              ATENCIÓN PERSONALIZADA
+            </span>
+            <h2 class="font-title font-bold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight">
+              No te entrego solamente un equipo. Te ayudo a ponerlo a funcionar.
+            </h2>
+            <p class="text-sm text-text-muted">
+              Acompañamiento presencial para que tu mostrador quede operando sin complicaciones.
+            </p>
+          </div>
+          <button onclick="openQualificationModal()" 
+             class="btn-whatsapp hidden sm:inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-title font-bold text-xs uppercase tracking-wider shrink-0 cursor-pointer">
+            <span>HABLAR CON ARIEL POR WHATSAPP</span>
+          </button>
+        </div>
+
+        <!-- 4 Pasos Editoriales con Números Grandes -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-4 border-t border-white/[0.06]">
+          
+          <div class="flex flex-col gap-3">
+            <span class="font-title font-black text-4xl text-white/20 tabular-numbers">01</span>
+            <h3 class="font-title font-bold text-base text-white">Coordinamos</h3>
+            <p class="text-xs text-text-muted leading-relaxed">
+              Acordamos día y horario conveniente para la visita en tu local de Zona Norte.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <span class="font-title font-black text-4xl text-white/20 tabular-numbers">02</span>
+            <h3 class="font-title font-bold text-base text-white">Te lo entrego</h3>
+            <p class="text-xs text-text-muted leading-relaxed">
+              Entrega presencial coordinada directamente en tu mostrador, sin demoras de correo.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <span class="font-title font-black text-4xl text-white/20 tabular-numbers">03</span>
+            <h3 class="font-title font-bold text-base text-white">Lo activamos</h3>
+            <p class="text-xs text-text-muted leading-relaxed">
+              Configuración de tu terminal y código QR, realizando la primera prueba de cobro juntos.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <span class="font-title font-black text-4xl text-white/20 tabular-numbers">04</span>
+            <h3 class="font-title font-bold text-base text-white">Te explico cómo usarlo</h3>
+            <p class="text-xs text-text-muted leading-relaxed">
+              Acompañamiento inicial y asesoría sobre tasas para que comiences a cobrar con seguridad.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 03b — QUÉ RECIBÍS / BENEFICIOS DEL EQUIPAMIENTO -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full" id="beneficios">
+      <div class="flex flex-col gap-10">
+        
+        <div class="flex flex-col gap-2 max-w-2xl">
+          <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+            QUÉ RECIBÍS
+          </span>
+          <h2 class="font-title font-bold text-2xl sm:text-3xl text-white tracking-tight">
+            Diseñado para la operatoria diaria de tu local
+          </h2>
+          <p class="text-sm text-text-muted">
+            Solución integral con $0 de alquiler y acreditación flexible.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+          <!-- 1. $0 de alquiler -->
+          <div class="panel-card p-7 rounded-2xl flex flex-col justify-between gap-5 relative overflow-hidden border-t-2 border-t-whatsapp/60 sr sr-delay-1">
+            <div class="flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="font-title font-bold text-xs uppercase tracking-wider text-whatsapp">Modelo Comercial</span>
+                <span class="font-title font-black text-2xl text-white">$0 Alquiler</span>
+              </div>
+              <h3 class="font-title font-bold text-base text-white">$0 de alquiler</h3>
+              <p class="text-xs text-text-muted leading-relaxed">
+                Solo abonás la comisión correspondiente a cada operación, según las condiciones vigentes. Sin costos fijos de mantenimiento ni mínimos de facturación.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-white/[0.05] text-[11px] text-text-subtle font-medium">
+              El equipo queda a nombre de tu comercio
+            </div>
+          </div>
+
+          <!-- 2. Acreditación inmediata -->
+          <div class="panel-card p-7 rounded-2xl flex flex-col justify-between gap-5 relative overflow-hidden border-t-2 border-t-primary-accent/60 sr sr-delay-2">
+            <div class="flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="font-title font-bold text-xs uppercase tracking-wider text-primary-accent">Disponibilidad</span>
+                <span class="font-title font-black text-2xl text-white">En el acto</span>
+              </div>
+              <h3 class="font-title font-bold text-base text-white">Dinero en tu cuenta</h3>
+              <p class="text-xs text-text-muted leading-relaxed">
+                Podés disponer del dinero en tu cuenta al instante para pagar proveedores, transferir o generar rendimientos diarios.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-white/[0.05] text-[11px] text-text-subtle font-medium">
+              Vos elegís el plazo de acreditación
+            </div>
+          </div>
+
+          <!-- 3. Plan de datos incluido -->
+          <div class="panel-card p-7 rounded-2xl flex flex-col justify-between gap-5 relative overflow-hidden border-t-2 border-t-[#06B6D4]/60 sr sr-delay-3">
+            <div class="flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="font-title font-bold text-xs uppercase tracking-wider text-[#06B6D4]">Conectividad</span>
+                <span class="font-title font-black text-2xl text-white">4G + Wi-Fi</span>
+              </div>
+              <h3 class="font-title font-bold text-base text-white">Plan de datos incluido</h3>
+              <p class="text-xs text-text-muted leading-relaxed">
+                Viene con chip de datos móviles 4G incorporado y conexión Wi-Fi para operar de forma autónoma sin depender de tu celular.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-white/[0.05] text-[11px] text-text-subtle font-medium">
+              Terminal 100% independiente
+            </div>
+          </div>
+
+          <!-- 4. Reposición de bobinas -->
+          <div class="panel-card p-7 rounded-2xl flex flex-col justify-between gap-5 relative overflow-hidden border-t-2 border-t-[#A855F7]/60 sr sr-delay-1">
+            <div class="flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="font-title font-bold text-xs uppercase tracking-wider text-[#A855F7]">Insumos</span>
+                <span class="font-title font-black text-2xl text-white">Incluidas</span>
+              </div>
+              <h3 class="font-title font-bold text-base text-white">Bobinas térmicas incluidas</h3>
+              <p class="text-xs text-text-muted leading-relaxed">
+                Solicitás los rollos de papel térmico directo desde la pantalla del Point Smart según la disponibilidad del servicio.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-white/[0.05] text-[11px] text-text-subtle font-medium">
+              Impresión rápida de comprobantes
+            </div>
+          </div>
+
+          <!-- 5. Kit de Mostrador -->
+          <div class="panel-card p-7 rounded-2xl flex flex-col justify-between gap-5 relative overflow-hidden border-t-2 border-t-[#F59E0B]/60 sr sr-delay-2">
+            <div class="flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="font-title font-bold text-xs uppercase tracking-wider text-[#F59E0B]">Kit Caja</span>
+                <span class="font-title font-black text-2xl text-white">Soporte QR</span>
+              </div>
+              <h3 class="font-title font-bold text-base text-white">Soporte acrílico para caja</h3>
+              <p class="text-xs text-text-muted leading-relaxed">
+                Incluye soporte acrílico reforzado con código QR para cobrar con billeteras digitales a menor tasa de comisión.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-white/[0.05] text-[11px] text-text-subtle font-medium">
+              Cartelería de mostrador incluida
+            </div>
+          </div>
+
+          <!-- 6. 1 año de garantía -->
+          <div class="panel-card p-7 rounded-2xl flex flex-col justify-between gap-5 relative overflow-hidden border-t-2 border-t-[#6366F1]/60 sr sr-delay-3">
+            <div class="flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="font-title font-bold text-xs uppercase tracking-wider text-[#6366F1]">Respaldo</span>
+                <span class="font-title font-black text-2xl text-white">1 Año</span>
+              </div>
+              <h3 class="font-title font-bold text-base text-white">1 año de garantía</h3>
+              <p class="text-xs text-text-muted leading-relaxed">
+                El equipo cuenta con 1 año de garantía provista por Mercado Pago y actualizaciones automáticas del sistema.
+              </p>
+            </div>
+            <div class="pt-3 border-t border-white/[0.05] text-[11px] text-text-subtle font-medium">
+              Soporte y asesoría con Ariel
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RUBROS PRINCIPALES -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full" id="rubros">
+      <div class="flex flex-col gap-10">
+        
+        <div class="flex flex-col gap-2 max-w-2xl">
+          <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+            ADAPTABILIDAD
+          </span>
+          <h2 class="font-title font-bold text-2xl sm:text-3xl text-white tracking-tight">
+            Solución para los principales rubros de Zona Norte
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          
+          <div class="panel-card rounded-xl overflow-hidden flex flex-col group hover:border-primary-accent/40 transition-all">
+            <div class="relative overflow-hidden h-36">
+              <img src="img/rubro-gastronomia.webp" alt="Gastronomía y Cafetería" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#121722] via-transparent to-transparent"></div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/10 text-[11px] font-title font-bold text-primary-accent">Gastronomía</span>
+            </div>
+            <div class="p-4 flex flex-col gap-1">
+              <span class="font-title font-bold text-sm text-white">Restaurantes &amp; Cafés</span>
+              <span class="text-xs text-text-muted">Cobro en mesa, propinas integradas y ticket impreso de papel térmico.</span>
+            </div>
+          </div>
+
+          <div class="panel-card rounded-xl overflow-hidden flex flex-col group hover:border-primary-accent/40 transition-all">
+            <div class="relative overflow-hidden h-36">
+              <img src="img/rubro-indumentaria.webp" alt="Locales de Indumentaria" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#121722] via-transparent to-transparent"></div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/10 text-[11px] font-title font-bold text-primary-accent">Indumentaria</span>
+            </div>
+            <div class="p-4 flex flex-col gap-1">
+              <span class="font-title font-bold text-sm text-white">Moda &amp; Calzado</span>
+              <span class="text-xs text-text-muted">Planes de cuotas sin interés con todas las tarjetas para ampliar ticket.</span>
+            </div>
+          </div>
+
+          <div class="panel-card rounded-xl overflow-hidden flex flex-col group hover:border-primary-accent/40 transition-all">
+            <div class="relative overflow-hidden h-36">
+              <img src="img/rubro-servicios.webp" alt="Servicios y Estética" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#121722] via-transparent to-transparent"></div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/10 text-[11px] font-title font-bold text-primary-accent">Estética</span>
+            </div>
+            <div class="p-4 flex flex-col gap-1">
+              <span class="font-title font-bold text-sm text-white">Peluquerías &amp; Spa</span>
+              <span class="text-xs text-text-muted">Cobro rápido de turnos con contactless o QR interoperable en recepción.</span>
+            </div>
+          </div>
+
+          <div class="panel-card rounded-xl overflow-hidden flex flex-col group hover:border-primary-accent/40 transition-all">
+            <div class="relative overflow-hidden h-36">
+              <img src="img/rubro-comercio.webp" alt="Comercios a la calle" loading="lazy" decoding="async" class="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#121722] via-transparent to-transparent"></div>
+              <span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-black/60 backdrop-blur-md border border-white/10 text-[11px] font-title font-bold text-primary-accent">Comercio</span>
+            </div>
+            <div class="p-4 flex flex-col gap-1">
+              <span class="font-title font-bold text-sm text-white">Locales a la Calle</span>
+              <span class="text-xs text-text-muted">Chip 4G autónomo: cobrá sin depender de la señal del celular ni Wi-Fi.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Cuadrícula complementaria de Rubros Comerciales en Texto (Sin Emojis - Iconografía SVG Minimalista) -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 pt-1">
+          
+          <!-- Celulares -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Casas de Celulares</span>
+              <span class="text-[11px] text-text-subtle">Tecnología y accesorios</span>
+            </div>
+          </div>
+
+          <!-- Ferreterías -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Ferreterías &amp; Corralones</span>
+              <span class="text-[11px] text-text-subtle">Pinturerías y materiales</span>
+            </div>
+          </div>
+
+          <!-- Detailing -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Detailing &amp; Talleres</span>
+              <span class="text-[11px] text-text-subtle">Car care, gomerías y repuestos</span>
+            </div>
+          </div>
+
+          <!-- Farmacias -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Farmacias &amp; Perfumerías</span>
+              <span class="text-[11px] text-text-subtle">Cosmética y cuidado personal</span>
+            </div>
+          </div>
+
+          <!-- Dietéticas -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Dietéticas &amp; Almacenes</span>
+              <span class="text-[11px] text-text-subtle">Tiendas naturales y fiambrerías</span>
+            </div>
+          </div>
+
+          <!-- Kioscos -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Kioscos &amp; Minimarkets</span>
+              <span class="text-[11px] text-text-subtle">Cobro veloz sin demoras</span>
+            </div>
+          </div>
+
+          <!-- Veterinarias -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Veterinarias &amp; Pet Shops</span>
+              <span class="text-[11px] text-text-subtle">Clínicas y accesorios</span>
+            </div>
+          </div>
+
+          <!-- Bazares -->
+          <div class="p-3.5 sm:p-4 rounded-xl bg-surface border border-white/[0.06] flex items-center gap-3 hover:border-primary-accent/30 transition-all">
+            <div class="w-8 h-8 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0">
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Bazares &amp; Regalerías</span>
+              <span class="text-[11px] text-text-subtle">Librerías, juguetes y deco</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MEDIOS DE PAGO ACEPTADOS (4 PILARES SIMPLIFICADOS) -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full sr">
+      <div class="panel-card rounded-2xl px-6 sm:px-10 py-8 flex flex-col gap-6">
+        
+        <div class="flex flex-col items-center gap-1.5 text-center">
+          <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+            COMPATIBILIDAD TOTAL
+          </span>
+          <h3 class="font-title font-bold text-lg sm:text-xl text-white tracking-tight">
+            Medios de pago aceptados con tu terminal
+          </h3>
+        </div>
+
+        <!-- 4 Pilares Simplificados y Elegantes -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+          
+          <div class="p-4 rounded-xl bg-surface-elevated border border-white/[0.08] flex flex-col items-center text-center gap-1.5 hover:border-primary-accent/40 transition-all">
+            <span class="font-title font-extrabold text-sm sm:text-base text-white tracking-wide">DÉBITO</span>
+            <span class="text-[11px] text-text-muted">Visa Débito, Maestro, Cabal</span>
+          </div>
+
+          <div class="p-4 rounded-xl bg-surface-elevated border border-white/[0.08] flex flex-col items-center text-center gap-1.5 hover:border-primary-accent/40 transition-all">
+            <span class="font-title font-extrabold text-sm sm:text-base text-white tracking-wide">CRÉDITO</span>
+            <span class="text-[11px] text-text-muted">Visa, Mastercard, Amex, Naranja X</span>
+          </div>
+
+          <div class="p-4 rounded-xl bg-surface-elevated border border-white/[0.08] flex flex-col items-center text-center gap-1.5 hover:border-whatsapp/40 transition-all">
+            <span class="font-title font-extrabold text-sm sm:text-base text-whatsapp tracking-wide">QR</span>
+            <span class="text-[11px] text-text-muted">Mercado Pago, MODO, Cuenta DNI</span>
+          </div>
+
+          <div class="p-4 rounded-xl bg-surface-elevated border border-white/[0.08] flex flex-col items-center text-center gap-1.5 hover:border-[#00C2FF]/40 transition-all">
+            <span class="font-title font-extrabold text-sm sm:text-base text-[#00C2FF] tracking-wide">CONTACTLESS</span>
+            <span class="text-[11px] text-text-muted">Cobro sin contacto NFC y celulares</span>
+          </div>
+
+        </div>
+
+        <p class="text-[11px] text-text-subtle text-center">
+          Compatibilidad y condiciones sujetas a los medios de pago disponibles y condiciones vigentes.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- 05 — CUÁNTO CUESTA: TASAS Y CONDICIONES VIGENTES -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full" id="tasas">
+      <div class="flex flex-col gap-10">
+        
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div class="flex flex-col gap-2 max-w-2xl">
+            <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+              CONDICIONES COMERCIALES
+            </span>
+            <h2 class="font-title font-bold text-2xl sm:text-3xl text-white tracking-tight">
+              Tasas y condiciones vigentes
+            </h2>
+            <p class="text-sm text-text-muted leading-relaxed">
+              Información periódicamente actualizada. Verificá las condiciones vigentes al momento de solicitar tu equipo.
+            </p>
+          </div>
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface border border-white/[0.08] text-xs text-text-subtle self-start sm:self-auto shrink-0">
+            <span class="w-1.5 h-1.5 rounded-full bg-primary-accent"></span>
+            <span>Última actualización: <strong class="text-white font-semibold" id="rate-fecha-actualizacion">septiembre 2026</strong></span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          
+          <!-- Tabla A: Lector Point (Borde Acento Azul) -->
+          <div class="panel-card p-6 sm:p-8 rounded-2xl border-t-2 border-t-primary-accent/70 flex flex-col justify-between gap-6">
+            <div class="flex flex-col gap-6">
+              
+              <div class="flex items-center justify-between border-b border-white/[0.06] pb-4">
+                <span class="font-title font-bold text-base text-white uppercase tracking-wider">Cobro con POINT (Lector Físico)</span>
+                <span class="text-xs font-title font-medium text-text-subtle">Tarjetas físicas</span>
+              </div>
+
+              <!-- Débito -->
+              <div class="flex flex-col gap-2">
+                <span class="text-xs font-title font-bold text-text-muted uppercase tracking-wider">Tarjeta de Débito</span>
+                <div class="flex items-center justify-between py-2 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-main">Al instante</span>
+                  <span class="font-title font-bold text-xl text-white tabular-numbers" id="rate-debito-instante">3,14%</span>
+                </div>
+                <div class="flex items-center justify-between py-2 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-muted">En 2 días hábiles</span>
+                  <span class="font-title font-medium text-base text-text-muted tabular-numbers" id="rate-debito-2dias">2,88%</span>
+                </div>
+              </div>
+
+              <!-- Crédito 1 Pago -->
+              <div class="flex flex-col gap-2 pt-2">
+                <span class="text-xs font-title font-bold text-text-muted uppercase tracking-wider">Tarjeta de Crédito (1 Pago)</span>
+                <div class="flex items-center justify-between py-2 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-main">Al instante</span>
+                  <span class="font-title font-bold text-xl text-white tabular-numbers" id="rate-credito-instante">6,29%</span>
+                </div>
+                <div class="flex items-center justify-between py-2 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-muted">En 5 días hábiles</span>
+                  <span class="font-title font-medium text-base text-text-muted tabular-numbers" id="rate-credito-5dias">5,45%</span>
+                </div>
+                <div class="flex items-center justify-between py-2 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-muted">En 10 días hábiles</span>
+                  <span class="font-title font-medium text-base text-text-muted tabular-numbers" id="rate-credito-10dias">4,40%</span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="text-xs text-text-subtle pt-2 border-t border-white/[0.06]">
+              Acreditación directa en tu cuenta digital de Mercado Pago.
+            </div>
+          </div>
+
+          <!-- Tabla B: Cobro QR (Borde Acento Verde) -->
+          <div class="panel-card p-6 sm:p-8 rounded-2xl border-t-2 border-t-whatsapp/70 flex flex-col justify-between gap-6">
+            <div class="flex flex-col gap-6">
+              
+              <div class="flex items-center justify-between border-b border-white/[0.06] pb-4">
+                <span class="font-title font-bold text-base text-white uppercase tracking-wider">Cobro con QR</span>
+                <span class="text-xs font-title font-medium text-whatsapp">Acreditación en el momento</span>
+              </div>
+
+              <div class="flex flex-col gap-2">
+                <div class="flex items-center justify-between py-2.5 border-b border-white/[0.04]">
+                  <div class="flex flex-col">
+                    <span class="text-sm text-text-main font-medium">Dinero en cuenta Mercado Pago</span>
+                    <span class="text-[11px] text-text-subtle">Tasa preferencial</span>
+                  </div>
+                  <span class="font-title font-bold text-xl text-whatsapp tabular-numbers" id="rate-qr-cuenta">0,80%</span>
+                </div>
+
+                <div class="flex items-center justify-between py-2.5 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-main">Tarjeta de Débito vía QR</span>
+                  <span class="font-title font-bold text-base text-white tabular-numbers" id="rate-qr-debito">1,41%</span>
+                </div>
+
+                <div class="flex items-center justify-between py-2.5 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-main">Cuotas sin tarjeta (Mercado Crédito)</span>
+                  <span class="font-title font-bold text-base text-white tabular-numbers" id="rate-qr-credito">1,41%</span>
+                </div>
+
+                <div class="flex items-center justify-between py-2.5 border-b border-white/[0.04]">
+                  <span class="text-sm text-text-muted">Tarjeta Prepaga</span>
+                  <span class="font-title font-medium text-base text-text-muted tabular-numbers" id="rate-qr-prepaga">3,99%</span>
+                </div>
+              </div>
+
+              <div class="p-3.5 rounded-lg bg-canvas border border-white/[0.06] text-xs text-text-muted">
+                <span class="font-title font-semibold text-white">Recomendación comercial:</span> Al cobrar débito mediante código QR, la comisión se reduce al 1,41% con acreditación en el momento.
+              </div>
+
+            </div>
+
+            <div class="text-xs text-text-subtle pt-2 border-t border-white/[0.06]">
+              Interoperable con billeteras digitales bancarias y de pago (MODO, Cuenta DNI, Ualá).
+            </div>
+          </div>
+
+        </div>
+
+        <div class="flex flex-col gap-2.5 text-center max-w-3xl mx-auto">
+          <p class="text-xs text-text-muted leading-relaxed">
+            Valores orientativos sujetos a las condiciones vigentes de Mercado Pago, situación fiscal, jurisdicción y medio de pago. Las tasas, plazos y condiciones pueden variar. Verificamos la condición aplicable antes de confirmar la operación.
+          </p>
+          <p class="text-[11px] text-text-subtle">
+            * Tasas netas de comisión del servicio (+ IVA). Sujeto a retenciones o percepciones impositivas según la condición fiscal registrada y jurisdicción aplicable (ARBA / AGIP / ARCA).
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 06 — QUIÉN PUEDE SOLICITARLO & COBERTURA -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full" id="cobertura">
+      <div class="relative panel-card rounded-3xl overflow-hidden flex flex-col items-center p-6 sm:p-12 gap-8">
+        
+        <img src="img/mapa-zona-norte.webp" 
+             alt="Mapa de Cobertura Zona Norte" 
+             loading="lazy" decoding="async"
+             class="absolute inset-0 w-full h-full object-cover opacity-25 pointer-events-none" />
+        
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0B0E14] via-[#0B0E14]/85 to-[#0B0E14]/65 pointer-events-none"></div>
+
+        <div class="relative z-10 flex flex-col items-center text-center gap-3 max-w-3xl">
+          <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+            COBERTURA GEOGRÁFICA
+          </span>
+          <h2 class="font-title font-extrabold text-2xl sm:text-4xl text-white tracking-tight leading-tight" style="text-wrap: balance;">
+            Presencia en los 4 Municipios de&nbsp;Zona&nbsp;Norte
+          </h2>
+          <p class="text-sm text-text-muted max-w-xl">
+            Atendemos nuevas altas y comercios que cumplan las condiciones comerciales vigentes para este canal.
+          </p>
+        </div>
+
+        <!-- 4 Tarjetas Municipios con Borde Superior y Glow -->
+        <div class="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+          
+          <div class="p-5 rounded-2xl bg-[#121722]/90 backdrop-blur-md border border-white/10 border-t-2 border-t-primary-accent/80 flex flex-col gap-2.5 hover:border-primary-accent hover:shadow-[0_8px_25px_rgba(0,158,227,0.15)] transition-all">
+            <span class="font-title font-bold text-sm text-white flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-whatsapp"></span> Vicente López
+            </span>
+            <p class="text-xs text-text-muted leading-relaxed">
+              Olivos, Florida, La Lucila, Munro, Carapachay, Villa Martelli y Villa Adelina.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-[#121722]/90 backdrop-blur-md border border-white/10 border-t-2 border-t-primary-accent/80 flex flex-col gap-2.5 hover:border-primary-accent hover:shadow-[0_8px_25px_rgba(0,158,227,0.15)] transition-all">
+            <span class="font-title font-bold text-sm text-white flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-whatsapp"></span> San Isidro
+            </span>
+            <p class="text-xs text-text-muted leading-relaxed">
+              Acassuso, Martínez, San Isidro Centro, Beccar, Boulogne y Villa Adelina.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-[#121722]/90 backdrop-blur-md border border-white/10 border-t-2 border-t-primary-accent/80 flex flex-col gap-2.5 hover:border-primary-accent hover:shadow-[0_8px_25px_rgba(0,158,227,0.15)] transition-all">
+            <span class="font-title font-bold text-sm text-white flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-whatsapp"></span> San Fernando
+            </span>
+            <p class="text-xs text-text-muted leading-relaxed">
+              San Fernando Centro, Victoria y Virreyes (islas a coordinar).
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-[#121722]/90 backdrop-blur-md border border-white/10 border-t-2 border-t-primary-accent/80 flex flex-col gap-2.5 hover:border-primary-accent hover:shadow-[0_8px_25px_rgba(0,158,227,0.15)] transition-all">
+            <span class="font-title font-bold text-sm text-white flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-whatsapp"></span> Tigre
+            </span>
+            <p class="text-xs text-text-muted leading-relaxed">
+              Tigre Centro, Rincón de Milberg, Troncos, Benavídez, Don Torcuato, Pacheco y Nordelta.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="relative z-10 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-xs text-text-subtle text-center">
+          <span>📍 <strong>Zona Norte &amp; Cercanías:</strong> Entrega en mano y puesta en marcha presencial en tu local.</span>
+          <span class="text-white/20 hidden sm:inline">•</span>
+          <span>🚚 <strong>¿Interior del país?</strong> <a href="https://mpago.li/1nDWP3p" target="_blank" rel="noopener noreferrer" class="text-primary-accent hover:underline font-medium">Pedilo online con descuento y envío gratis →</a></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 06c — ENVÍOS A TODO EL PAÍS: COMPRA DIRECTA ONLINE CON DESCUENTO OFICIAL -->
+    <section class="max-w-6xl mx-auto px-5 sm:px-8 w-full sr" id="envios-nacionales">
+      <div class="panel-card p-7 sm:p-12 rounded-3xl relative overflow-hidden border border-primary-accent/30 bg-gradient-to-br from-[#121826] via-[#0F1420] to-[#0A0D14] flex flex-col gap-8 shadow-2xl">
+        
+        <!-- Glow ambiental decorativo -->
+        <div class="absolute -top-24 -right-24 w-80 h-80 rounded-full bg-primary-accent/10 blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-whatsapp/10 blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+          
+          <div class="flex flex-col gap-3 max-w-2xl">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="px-2.5 py-1 rounded-full bg-primary-accent/15 border border-primary-accent/30 text-[11px] font-title font-bold text-primary-accent tracking-wider uppercase">
+                ALCANCE NACIONAL
+              </span>
+              <span class="px-2.5 py-1 rounded-full bg-whatsapp/15 border border-whatsapp/30 text-[11px] font-title font-bold text-whatsapp tracking-wider uppercase flex items-center gap-1.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-whatsapp animate-pulse"></span>
+                ENVÍO GRATIS A TODO EL PAÍS
+              </span>
+            </div>
+
+            <h2 class="font-title font-extrabold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight leading-tight">
+              ¿Tu comercio está en el interior del país o fuera de Zona Norte?
+            </h2>
+
+            <p class="text-sm sm:text-base text-text-muted leading-relaxed">
+              Si estás en otra provincia o localidad fuera de nuestra zona de atención presencial, podés solicitar tu <strong>Point Smart</strong> con descuento oficial de referido y recibirlo directamente en tu negocio con <span class="text-white font-semibold">Envío Gratuito a cualquier punto de la Argentina</span>.
+            </p>
+          </div>
+
+          <!-- Botón CTA Destacado -->
+          <div class="flex flex-col gap-2.5 shrink-0 sm:min-w-[280px]">
+            <a href="https://mpago.li/1nDWP3p" 
+               target="_blank" rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-xl bg-gradient-to-r from-primary-accent to-[#0080B8] hover:from-[#00B4FF] hover:to-primary-accent text-white font-title font-bold text-xs sm:text-sm tracking-wide uppercase shadow-lg shadow-primary-accent/25 hover:shadow-primary-accent/40 transition-all transform hover:-translate-y-0.5">
+              <span>COMPRAR ONLINE CON DESCUENTO</span>
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+            <span class="text-[11px] text-text-subtle text-center">
+              Compra 100% segura procesada en la web oficial de Mercado Pago
+            </span>
+          </div>
+
+        </div>
+
+        <!-- 4 Beneficios en Píldoras/Tarjetas Glassmorphism -->
+        <div class="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4 border-t border-white/[0.08]">
+          
+          <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-start gap-3.5 hover:border-primary-accent/30 transition-all">
+            <div class="w-9 h-9 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0 mt-0.5">
+              <svg class="w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Envío Gratis País</span>
+              <span class="text-[11px] text-text-muted">A la puerta de tu local por Mercado Envíos.</span>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-start gap-3.5 hover:border-whatsapp/30 transition-all">
+            <div class="w-9 h-9 rounded-lg bg-whatsapp/10 border border-whatsapp/20 flex items-center justify-center text-whatsapp shrink-0 mt-0.5">
+              <svg class="w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Descuento Oficial</span>
+              <span class="text-[11px] text-text-muted">Precio promocional de referido aplicado al entrar.</span>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-start gap-3.5 hover:border-primary-accent/30 transition-all">
+            <div class="w-9 h-9 rounded-lg bg-primary-accent/10 border border-primary-accent/20 flex items-center justify-center text-primary-accent shrink-0 mt-0.5">
+              <svg class="w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Garantía Oficial</span>
+              <span class="text-[11px] text-text-muted">1 año de respaldo directo de Mercado Pago.</span>
+            </div>
+          </div>
+
+          <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-start gap-3.5 hover:border-whatsapp/30 transition-all">
+            <div class="w-9 h-9 rounded-lg bg-whatsapp/10 border border-whatsapp/20 flex items-center justify-center text-whatsapp shrink-0 mt-0.5">
+              <svg class="w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-title font-bold text-xs sm:text-sm text-white">Auto-Activación</span>
+              <span class="text-[11px] text-text-muted">Prendés el equipo, vinculás tu cuenta y cobrás.</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 06b — FAQ (ORIENTADO A NUEVOS CLIENTES Y CONDICIONES) -->
+    <section class="max-w-4xl mx-auto px-5 sm:px-8 w-full" id="faq">
+      <div class="flex flex-col gap-10">
+
+        <div class="flex flex-col gap-2 sr">
+          <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+            PREGUNTAS FRECUENTES
+          </span>
+          <h2 class="font-title font-bold text-2xl sm:text-3xl text-white tracking-tight">
+            Todo lo que necesitás saber antes de solicitar tu equipo
+          </h2>
+        </div>
+
+        <div class="panel-card rounded-2xl px-6 sm:px-10 py-2 sr sr-delay-1">
+
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿Puedo solicitar un Point si ya tengo uno?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Este servicio está enfocado en nuevas altas y en comercios que cumplan las condiciones comerciales vigentes para solicitar un nuevo equipo. No gestionamos reemplazos por rotura, equipos adicionales para otra sucursal ni compras de un segundo Point a través de este canal.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿Y si mi Point se rompió?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Este servicio no está destinado al reemplazo de equipos existentes. En ese caso, corresponde utilizar los canales de soporte de Mercado Pago.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿Puedo pedir otro Point para otra sucursal?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>No. Nuestra atención comercial está enfocada en nuevas altas que cumplan las condiciones comerciales vigentes.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿Quién puede solicitarlo?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Monotributistas y Responsables Inscriptos que cumplan las condiciones comerciales vigentes. La elegibilidad se verifica antes de coordinar la entrega.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿El Point Smart tiene costo de alquiler o mantenimiento mensual?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>No. El Point Smart cuenta con $0 de alquiler. Solo abonás la comisión correspondiente a cada operación, según las condiciones vigentes. Si un mes no tenés actividad, no pagás nada.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿Cuándo y cómo recibo el dinero de mis ventas?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>El dinero se acredita directamente en tu cuenta digital de Mercado Pago. Podés elegir acreditación <strong style="color:#F8FAFC">al instante (en el acto)</strong> para disponer de los fondos de inmediato, o seleccionar plazos diferidos (2, 5 o 10 días) para pagar una menor tasa de comisión.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿Necesito contratar internet o línea móvil para el Point Smart?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>No. El equipo ya incluye un chip 4G con plan de datos incluido. Además, cuenta con conexión Wi-Fi para operar de forma autónoma sin depender de tu teléfono celular.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 8: Envíos Nacionales -->
+          <div class="faq-item">
+            <button class="faq-btn" aria-expanded="false" onclick="toggleFaq(this)">
+              <span>¿Hacen envíos al interior del país o a otras provincias?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>¡Sí! Si tu comercio se encuentra fuera de nuestra zona de cobertura presencial (Zona Norte / CABA), podés adquirir tu Point Smart de forma online con descuento exclusivo y recibirlo con <strong style="color:#F8FAFC">Envío Gratuito a cualquier localidad del país</strong> directamente por Mercado Envíos mediante nuestro <a href="https://mpago.li/1nDWP3p" target="_blank" rel="noopener noreferrer" class="text-primary-accent underline font-semibold">enlace oficial con descuento y envío gratis ↗</a>.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 07 — CONTACTO: FORMULARIO & WHATSAPP ARIEL -->
+    <section class="max-w-4xl mx-auto px-5 sm:px-8 w-full" id="solicitar">
+      <div class="panel-card p-8 sm:p-12 rounded-3xl flex flex-col gap-8">
+        
+        <div class="flex flex-col gap-2.5 text-center sm:text-left">
+          <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+            <span class="font-title text-xs font-bold uppercase tracking-[0.2em] text-primary-accent">
+              CONTACTO DIRECTO CON ARIEL
+            </span>
+            <span class="text-white/20 hidden sm:inline">•</span>
+            <a href="https://mpago.li/1nDWP3p" target="_blank" rel="noopener noreferrer" class="text-[11px] text-text-muted hover:text-primary-accent transition-colors inline-flex items-center gap-1">
+              <span>¿Estás en otra provincia? Comprá online con descuento y envío gratis</span>
+              <svg class="w-3 h-3 stroke-current" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+            </a>
+          </div>
+          <h2 class="font-title font-bold text-2xl sm:text-3xl text-white tracking-tight">
+            Solicitá tu Point Smart para tu comercio
+          </h2>
+          <p class="text-sm text-text-muted">
+            Completá los datos de tu negocio para verificar tu elegibilidad comercial y coordinar la entrega en Zona Norte.
+          </p>
+        </div>
+
+        <form id="leadForm" onsubmit="event.preventDefault(); submitLeadWhatsApp();" class="flex flex-col gap-4">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="flex flex-col gap-1.5">
+              <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Nombre / Nombre del Comercio *</label>
+              <input type="text" id="comercio" required placeholder="Ej: Pizzería Don Mario"
+                     class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white placeholder:text-text-subtle focus:outline-none focus:border-primary-accent transition-colors text-sm"/>
+            </div>
+
+            <div class="flex flex-col gap-1.5">
+              <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">CUIT Comercial *</label>
+              <input type="text" id="cuit" required placeholder="Ej: 20-33445566-9"
+                     class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white placeholder:text-text-subtle focus:outline-none focus:border-primary-accent transition-colors text-sm"/>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="flex flex-col gap-1.5">
+              <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Condición Fiscal *</label>
+              <select id="condicion" required class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white focus:outline-none focus:border-primary-accent transition-colors text-sm">
+                <option value="Monotributo">Monotributo</option>
+                <option value="Responsable Inscripto">Responsable Inscripto</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-1.5">
+              <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Tipo de Solicitud *</label>
+              <select id="tipo" required class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white focus:outline-none focus:border-primary-accent transition-colors text-sm">
+                <option value="Nueva Alta Comercial (Primer Point)">Nueva Alta Comercial (Primer Point)</option>
+                <option value="Consulta General">Consulta General</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="flex flex-col gap-1.5">
+              <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Localidad *</label>
+              <select id="localidad" required class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white focus:outline-none focus:border-primary-accent transition-colors text-sm">
+                <option value="San Fernando">San Fernando</option>
+                <option value="Tigre">Tigre</option>
+                <option value="San Isidro">San Isidro</option>
+                <option value="Vicente López">Vicente López</option>
+                <option value="Otra localidad cercana">Otra localidad cercana (consultar)</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-1.5">
+              <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">WhatsApp de Contacto *</label>
+              <input type="tel" id="whatsapp" required placeholder="Ej: 11 6511 4110"
+                     class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white placeholder:text-text-subtle focus:outline-none focus:border-primary-accent transition-colors text-sm"/>
+            </div>
+          </div>
+
+          <button type="submit" 
+                  class="btn-whatsapp w-full py-3.5 sm:py-4 mt-2 rounded-xl font-title font-bold text-xs sm:text-sm tracking-wide uppercase shadow-lg flex items-center justify-center gap-2 cursor-pointer text-center">
+            <svg class="w-4 h-4 sm:w-5 sm:h-5 shrink-0 fill-current" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span class="whitespace-nowrap">VERIFICAR CONDICIÓN POR WHATSAPP →</span>
+          </button>
+
+          <p class="text-[11px] text-text-subtle text-center flex flex-col sm:flex-row items-center justify-center gap-1.5 pt-1">
+            <span>Privacidad: tus datos serán utilizados únicamente para gestionar tu solicitud comercial y contactarte sobre Point Smart. Tratamiento conforme a la Ley 25.326.</span>
+            <span class="text-white/20 hidden sm:inline">•</span>
+            <a href="privacidad.html" class="underline text-primary-accent hover:text-white transition-colors">Política de privacidad</a>
+          </p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MOBILE STICKY CTA BAR -->
+  <div class="mobile-sticky-bar md:hidden flex items-center justify-between gap-3 safe-bottom">
+    <div class="flex flex-col">
+      <span class="text-white font-title font-bold text-xs">Point Smart</span>
+      <span class="text-text-subtle text-[10px]">Cobrá Tarjeta y QR</span>
+    </div>
+    <button onclick="openQualificationModal()" 
+       class="btn-whatsapp flex-1 max-w-[240px] min-h-[46px] py-2.5 px-3 rounded-xl font-title font-bold text-[11px] uppercase tracking-wider flex items-center justify-center gap-2 shadow-md cursor-pointer">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      <span>CONSULTAR PRECIO →</span>
+    </button>
+  </div>
+
+  <!-- 09 — FOOTER CON DESCARGOS LEGALES EXACTOS -->
+  <footer class="w-full bg-[#07090E] border-t border-white/[0.06] py-12 text-text-subtle text-xs">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col gap-8">
+      
+      <!-- Cabecera de Footer -->
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-6 border-b border-white/[0.05]">
+        <div class="flex flex-col gap-1.5">
+          <span class="font-title font-extrabold text-sm text-white tracking-tight flex items-center gap-2">
+            SOLUCIONES DE COBRO <span class="text-primary-accent font-bold text-xs uppercase px-2 py-0.5 rounded bg-primary-accent/10 border border-primary-accent/20">Zona Norte</span>
+          </span>
+          <span class="text-xs text-text-muted">Ariel · Asesor comercial independiente especializado en Point Smart.</span>
+          <span class="text-[11px] text-text-subtle">San Fernando · Tigre · San Isidro · Vicente López · Otras zonas consultar disponibilidad</span>
+        </div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 text-xs">
+          <button onclick="openQualificationModal()" class="text-whatsapp hover:underline flex items-center gap-1.5 font-medium cursor-pointer bg-transparent border-0 p-0 text-xs">
+            <span class="w-2 h-2 rounded-full bg-whatsapp"></span>
+            WhatsApp: 11 6511-4110
+          </button>
+        </div>
+      </div>
+
+      <!-- Cuadrícula de Avisos Legales y Privacidad -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-[11px] leading-relaxed text-text-subtle/80 max-w-5xl">
+        <div class="flex flex-col gap-1.5">
+          <span class="font-title font-bold text-xs uppercase tracking-wider text-text-muted">Aviso de Marca e Independencia</span>
+          <p>
+            Mercado Pago y Point son marcas de Mercado Libre. Este sitio corresponde a un servicio de asesoría comercial independiente especializado en Point Smart y no es el sitio oficial de Mercado Pago.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-1.5">
+          <span class="font-title font-bold text-xs uppercase tracking-wider text-text-muted">Protección de Datos Personales</span>
+          <p>
+            Tratamiento conforme a la Ley 25.326 para la gestión y contacto de solicitudes comerciales. Consultá los términos en nuestra <a href="privacidad.html" class="underline text-text-muted hover:text-white transition-colors">Política de privacidad</a>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Copyright y Enlaces Legales -->
+      <div class="pt-6 border-t border-white/[0.04] flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px]">
+        <p>© 2026 Soluciones de Cobro Zona Norte. Ariel · Asesoría Comercial Independiente.</p>
+        <div class="flex items-center gap-4">
+          <a href="privacidad.html" class="underline text-text-muted hover:text-white transition-colors">Política de privacidad</a>
+          <span class="text-white/20">•</span>
+          <span class="text-text-subtle">Monotributistas y Responsables Inscriptos</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MODAL DE PRE-CALIFICACIÓN COMERCIAL (LEAD QUALIFICATION POPUP) -->
+  <div id="qualificationModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 transition-all duration-300 opacity-0 pointer-events-none" onclick="if(event.target === this) closeQualificationModal();">
+    <div class="panel-card max-w-lg w-full p-6 sm:p-8 rounded-3xl border border-white/15 bg-[#101520] shadow-2xl relative max-h-[92vh] overflow-y-auto transform transition-all duration-300 scale-95" id="modalCard">
+      
+      <!-- Botón Cerrar (X) -->
+      <button onclick="closeQualificationModal()" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-white/5 hover:bg-white/15 border border-white/10 flex items-center justify-center text-text-muted hover:text-white transition-all cursor-pointer">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <!-- Cabecera del Modal -->
+      <div class="flex flex-col gap-2 pb-5 border-b border-white/[0.08]">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-whatsapp animate-pulse"></span>
+          <span class="font-title text-[11px] font-bold tracking-widest uppercase text-primary-accent">ASESORÍA DIRECTA CON ARIEL</span>
+        </div>
+        <h3 class="font-title font-extrabold text-xl sm:text-2xl text-white tracking-tight">
+          Verificá tu Condición Comercial
+        </h3>
+        <p class="text-xs text-text-muted leading-relaxed">
+          Atención personalizada para nuevas altas comerciales en Zona Norte (San Fernando, Tigre, San Isidro y Vicente López).
+        </p>
+      </div>
+
+      <!-- Formulario del Modal -->
+      <form id="modalLeadForm" onsubmit="event.preventDefault(); submitModalLead();" class="flex flex-col gap-4 pt-5">
+        
+        <!-- Nombre / Comercio -->
+        <div class="flex flex-col gap-1.5">
+          <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Nombre / Nombre del Comercio *</label>
+          <input type="text" id="modalComercio" required placeholder="Ej: Pizzería Don Mario / Juan Pérez"
+                 class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white placeholder:text-text-subtle focus:outline-none focus:border-primary-accent transition-colors text-sm"/>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Condición Fiscal -->
+          <div class="flex flex-col gap-1.5">
+            <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Condición Fiscal *</label>
+            <select id="modalCondicion" required onchange="handleModalFilterChange()"
+                    class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white focus:outline-none focus:border-primary-accent transition-colors text-sm">
+              <option value="" disabled selected>Seleccioná condición</option>
+              <option value="Monotributo">Monotributo</option>
+              <option value="Responsable Inscripto">Responsable Inscripto</option>
+              <option value="Particular / Sin CUIT">Particular / Sin CUIT Comercial</option>
+            </select>
+          </div>
+
+          <!-- Tipo de Solicitud -->
+          <div class="flex flex-col gap-1.5">
+            <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Tipo de Solicitud *</label>
+            <select id="modalTipo" required onchange="handleModalFilterChange()"
+                    class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white focus:outline-none focus:border-primary-accent transition-colors text-sm">
+              <option value="Nueva Alta Comercial (Primer Point)">Nueva Alta Comercial (Primer Point)</option>
+              <option value="Recambio / Soporte de equipo roto">Recambio / Soporte de equipo roto</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- CUIT -->
+          <div class="flex flex-col gap-1.5" id="modalCuitContainer">
+            <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">CUIT Comercial *</label>
+            <input type="text" id="modalCuit" required placeholder="20-XXXXXXXX-X"
+                   class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white placeholder:text-text-subtle focus:outline-none focus:border-primary-accent transition-colors text-sm"/>
+          </div>
+
+          <!-- Localidad -->
+          <div class="flex flex-col gap-1.5">
+            <label class="font-title text-xs font-semibold uppercase tracking-wider text-text-muted">Localidad del Local *</label>
+            <select id="modalLocalidad" required onchange="handleModalFilterChange()"
+                    class="w-full px-4 py-3 rounded-xl bg-canvas border border-white/10 text-white focus:outline-none focus:border-primary-accent transition-colors text-sm">
+              <option value="San Fernando">San Fernando</option>
+              <option value="Tigre">Tigre</option>
+              <option value="San Isidro">San Isidro</option>
+              <option value="Vicente López">Vicente López</option>
+              <option value="Otra localidad cercana">Otra localidad cercana (consultar)</option>
+              <option value="Interior del país">Interior del país / Otra provincia</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Banners de Descarte / Redirección Inteligente -->
+        <div id="modalNoticeParticular" class="hidden p-4 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200 flex flex-col gap-2.5">
+          <div class="flex items-center gap-2 font-semibold">
+            <svg class="w-4 h-4 text-amber-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            <span>Atención Presencial Exclusiva para Comercios con CUIT</span>
+          </div>
+          <p class="text-amber-200/80 leading-relaxed">
+            La entrega en mano y puesta en marcha es para comercios registrados con CUIT. Si sos particular o consumidor final, podés adquirir tu Point Smart online con descuento oficial y recibirlo gratis por correo:
+          </p>
+          <a href="https://mpago.li/1nDWP3p" target="_blank" rel="noopener noreferrer" class="btn-whatsapp py-2.5 px-4 rounded-lg font-title font-bold text-xs uppercase text-center flex items-center justify-center gap-2">
+            <span>COMPRAR ONLINE CON ENVÍO GRATIS ↗</span>
+          </a>
+        </div>
+
+        <div id="modalNoticeSoporte" class="hidden p-4 rounded-xl bg-blue-500/10 border border-blue-500/20 text-xs text-blue-200 flex flex-col gap-2">
+          <div class="flex items-center gap-2 font-semibold">
+            <svg class="w-4 h-4 text-blue-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            <span>Canal Exclusivo para Nuevas Altas Comerciales</span>
+          </div>
+          <p class="text-blue-200/80 leading-relaxed">
+            Este servicio no gestiona cambios por rotura o soporte de terminales existentes. Por favor gestioná tu reclamo directamente en la <strong>App de Mercado Pago &gt; Menú &gt; Ayuda &gt; Lectores Point</strong>.
+          </p>
+        </div>
+
+        <div id="modalNoticeInterior" class="hidden p-4 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-xs text-cyan-200 flex flex-col gap-2.5">
+          <div class="flex items-center gap-2 font-semibold">
+            <svg class="w-4 h-4 text-cyan-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+            <span>Envío Bonificado al Interior del País</span>
+          </div>
+          <p class="text-cyan-200/80 leading-relaxed">
+            Para localidades fuera de Zona Norte, podés solicitar tu Point Smart con descuento oficial y recibirlo gratis en tu domicilio por Mercado Envíos:
+          </p>
+          <a href="https://mpago.li/1nDWP3p" target="_blank" rel="noopener noreferrer" class="btn-whatsapp py-2.5 px-4 rounded-lg font-title font-bold text-xs uppercase text-center flex items-center justify-center gap-2">
+            <span>COMPRAR CON ENVÍO GRATIS A TODO EL PAÍS ↗</span>
+          </a>
+        </div>
+
+        <!-- Botón de Envío de WhatsApp -->
+        <button type="submit" id="modalSubmitBtn"
+                class="btn-whatsapp w-full py-3.5 sm:py-4 mt-2 rounded-xl font-title font-bold text-xs sm:text-sm tracking-wide uppercase shadow-lg flex items-center justify-center gap-2 cursor-pointer text-center">
+          <svg class="w-4 h-4 sm:w-5 sm:h-5 shrink-0 fill-current" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+          <span class="whitespace-nowrap">CONTINUAR A WHATSAPP →</span>
+        </button>
+
+        <p class="text-[11px] text-text-subtle text-center pt-1">
+          Tus datos se utilizarán únicamente para verificar la condición comercial y coordinar la entrega.
+        </p>
+
+      </form>
+
+    </div>
+  </div>
+
+  <!-- SCRIPT DE ENVÍO & GOOGLE SHEETS EN VIVO -->
+  <script>
+    const ASESOR_PHONE = "5491165114110";
+
+    // ── MODAL DE PRE-CALIFICACIÓN COMERCIAL ─────────────────────────
+    function openQualificationModal() {
+      const modal = document.getElementById('qualificationModal');
+      const card = document.getElementById('modalCard');
+      if (modal && card) {
+        modal.classList.remove('opacity-0', 'pointer-events-none');
+        modal.classList.add('opacity-100', 'pointer-events-auto');
+        card.classList.remove('scale-95');
+        card.classList.add('scale-100');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeQualificationModal() {
+      const modal = document.getElementById('qualificationModal');
+      const card = document.getElementById('modalCard');
+      if (modal && card) {
+        modal.classList.add('opacity-0', 'pointer-events-none');
+        modal.classList.remove('opacity-100', 'pointer-events-auto');
+        card.classList.add('scale-95');
+        card.classList.remove('scale-100');
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeQualificationModal();
+    });
+
+    function handleModalFilterChange() {
+      const condicion = document.getElementById('modalCondicion').value;
+      const tipo = document.getElementById('modalTipo').value;
+      const localidad = document.getElementById('modalLocalidad').value;
+      
+      const noticeParticular = document.getElementById('modalNoticeParticular');
+      const noticeSoporte = document.getElementById('modalNoticeSoporte');
+      const noticeInterior = document.getElementById('modalNoticeInterior');
+      const submitBtn = document.getElementById('modalSubmitBtn');
+      const cuitContainer = document.getElementById('modalCuitContainer');
+      const cuitInput = document.getElementById('modalCuit');
+
+      // Reset notices
+      noticeParticular.classList.add('hidden');
+      noticeSoporte.classList.add('hidden');
+      noticeInterior.classList.add('hidden');
+      submitBtn.classList.remove('hidden');
+      cuitContainer.classList.remove('hidden');
+      cuitInput.required = true;
+
+      if (condicion === 'Particular / Sin CUIT') {
+        noticeParticular.classList.remove('hidden');
+        submitBtn.classList.add('hidden');
+        cuitContainer.classList.add('hidden');
+        cuitInput.required = false;
+      } else if (tipo === 'Recambio / Soporte de equipo roto') {
+        noticeSoporte.classList.remove('hidden');
+        submitBtn.classList.add('hidden');
+      } else if (localidad === 'Interior del país') {
+        noticeInterior.classList.remove('hidden');
+      }
+    }
+
+    function submitModalLead() {
+      const comercio = encodeURIComponent(document.getElementById('modalComercio').value.trim());
+      const condicion = encodeURIComponent(document.getElementById('modalCondicion').value);
+      const tipo = encodeURIComponent(document.getElementById('modalTipo').value);
+      const cuit = encodeURIComponent(document.getElementById('modalCuit').value.trim() || 'No informado');
+      const localidad = encodeURIComponent(document.getElementById('modalLocalidad').value);
+      
+      const texto = `Hola Ariel! Vengo de la página web.%0A%0A` +
+                    `SOLICITUD DE POINT SMART (Comercio Calificado):%0A` +
+                    `• *Comercio / Titular:* ${comercio}%0A` +
+                    `• *Condición Fiscal:* ${condicion}%0A` +
+                    `• *CUIT:* ${cuit}%0A` +
+                    `• *Tipo de Solicitud:* ${tipo}%0A` +
+                    `• *Localidad:* ${localidad}%0A%0A` +
+                    `Quiero coordinar la entrega y puesta en marcha en mi local.`;
+      
+      const url = `https://wa.me/${ASESOR_PHONE}?text=${texto}`;
+      window.open(url, '_blank');
+      closeQualificationModal();
+    }
+
+    function submitLeadWhatsApp() {
+      const comercio = encodeURIComponent(document.getElementById('comercio').value.trim());
+      const cuit = encodeURIComponent(document.getElementById('cuit').value.trim());
+      const condicion = encodeURIComponent(document.getElementById('condicion').value);
+      const tipo = encodeURIComponent(document.getElementById('tipo').value);
+      const localidad = encodeURIComponent(document.getElementById('localidad').value);
+      const telefono = encodeURIComponent(document.getElementById('whatsapp').value.trim());
+      
+      const texto = `Hola Ariel! Vengo de la página web.%0A%0A` +
+                    `SOLICITUD DE POINT SMART (Comercio Calificado):%0A` +
+                    `• *Comercio / Titular:* ${comercio}%0A` +
+                    `• *Condición Fiscal:* ${condicion}%0A` +
+                    `• *CUIT:* ${cuit}%0A` +
+                    `• *Tipo de Solicitud:* ${tipo}%0A` +
+                    `• *Localidad:* ${localidad}%0A` +
+                    `• *WhatsApp:* ${telefono}%0A%0A` +
+                    `Quiero verificar precio y coordinar la entrega en mi local.`;
+      
+      const url = `https://wa.me/${ASESOR_PHONE}?text=${texto}`;
+      window.open(url, '_blank');
+    }
+
+    const GOOGLE_SHEETS_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTDYhY2GZepQCcZlzx2x7NdB4-cNkWXdzVQegnb5WThHYtvkQ19zPNoxplzHkRhlWOYqci-jp5k_hTk/pub?output=csv";
+
+    async function loadLiveRatesFromGoogleSheet() {
+      if (!GOOGLE_SHEETS_CSV_URL) return;
+      
+      try {
+        const response = await fetch(GOOGLE_SHEETS_CSV_URL + "&t=" + new Date().getTime());
+        if (!response.ok) return;
+        const data = await response.text();
+        const rows = data.split('\n');
+        
+        rows.forEach(row => {
+          if (!row.trim()) return;
+          const parts = row.split(',');
+          if (parts.length >= 2) {
+            const key = parts[0].replace(/["']/g, '').trim();
+            const val = parts.slice(1).join(',').replace(/["']/g, '').trim();
+            const el = document.getElementById(key);
+            if (el && val && val !== "Columna B (Valor)") {
+              el.textContent = val;
+            }
+            if ((key === 'fecha' || key === 'fecha-actualizacion' || key === 'rate-fecha' || key === 'ultima-actualizacion') && val && val !== "Columna B (Valor)") {
+              const dateEl = document.getElementById('rate-fecha-actualizacion');
+              if (dateEl) dateEl.textContent = val;
+            }
+          }
+        });
+      } catch (err) {
+        console.log("Cargando tasas locales:", err);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", loadLiveRatesFromGoogleSheet);
+
+    // ── Scroll-reveal ──────────────────────────────────────────────
+    (function() {
+      const els = document.querySelectorAll('.sr');
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(el => io.observe(el));
+    })();
+
+    // ── FAQ Accordion ──────────────────────────────────────────────
+    function toggleFaq(btn) {
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+      document.querySelectorAll('.faq-btn').forEach(b => {
+        b.setAttribute('aria-expanded', 'false');
+        b.nextElementSibling.classList.remove('open');
+      });
+      if (!isOpen) {
+        btn.setAttribute('aria-expanded', 'true');
+        btn.nextElementSibling.classList.add('open');
+      }
+    }
+
+    // ── SCROLL SPY & MOBILE NAV AUTO-SCROLL ────────────────────────
+    (function() {
+      const sectionIds = ['hero', 'costo-no-aceptar', 'proceso', 'beneficios', 'rubros', 'tasas', 'cobertura', 'envios-nacionales', 'faq', 'solicitar'];
+      const mobilePills = document.querySelectorAll('.mobile-nav-pill');
+      const desktopLinks = document.querySelectorAll('.desktop-nav-link');
+      const navContainer = document.getElementById('mobileNavContainer');
+
+      let isTicking = false;
+
+      function updateActiveNav() {
+        const scrollPosition = window.scrollY + 160;
+        let currentSectionId = '';
+
+        for (let i = sectionIds.length - 1; i >= 0; i--) {
+          const el = document.getElementById(sectionIds[i]);
+          if (el) {
+            const top = el.offsetTop;
+            if (scrollPosition >= top - 80) {
+              currentSectionId = sectionIds[i];
+              break;
+            }
+          }
+        }
+
+        if (!currentSectionId && sectionIds.length > 0) {
+          currentSectionId = sectionIds[0];
+        }
+
+        desktopLinks.forEach(link => {
+          const target = link.getAttribute('href').replace('#', '');
+          if (target === currentSectionId) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+
+        mobilePills.forEach(pill => {
+          const target = pill.getAttribute('href').replace('#', '');
+          if (target === currentSectionId) {
+            if (!pill.classList.contains('active')) {
+              pill.classList.add('active');
+              if (navContainer) {
+                const pillLeft = pill.offsetLeft;
+                const pillWidth = pill.offsetWidth;
+                const containerWidth = navContainer.clientWidth;
+                const scrollTarget = pillLeft - (containerWidth / 2) + (pillWidth / 2);
+                navContainer.scrollTo({
+                  left: Math.max(0, scrollTarget),
+                  behavior: 'smooth'
+                });
+              }
+            }
+          } else {
+            pill.classList.remove('active');
+          }
+        });
+
+        isTicking = false;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!isTicking) {
+          window.requestAnimationFrame(updateActiveNav);
+          isTicking = true;
+        }
+      }, { passive: true });
+
+      updateActiveNav();
+    })();
+
+  </script>
+
+</body>
+</html>
