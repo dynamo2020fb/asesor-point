@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Verificación Comercial | Soluciones de Cobro</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #0B0E14;
+            --bg-card: #121824;
+            --border-card: #1F293D;
+            --accent-blue: #009EE3;
+            --accent-green: #10B981;
+            --text-main: #F1F5F9;
+            --text-muted: #94A3B8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(0, 158, 227, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.08) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 158, 227, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #162032 0%, #0F172A 100%);
+            padding: 30px;
+            border-bottom: 1px solid var(--border-card);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .brand-badge {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(0, 158, 227, 0.15);
+            border: 1px solid var(--accent-blue);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-blue);
+            font-weight: 800;
+            font-size: 22px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .brand-title h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #FFFFFF;
+        }
+
+        .brand-title p {
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .live-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(16, 185, 129, 0.12);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: #34D399;
+            padding: 8px 16px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .live-pulse {
+            width: 8px;
+            height: 8px;
+            background: #10B981;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #10B981;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+
+        .body-content {
+            padding: 32px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .info-card {
+            background: #0E131F;
+            border: 1px solid var(--border-card);
+            border-radius: 14px;
+            padding: 20px;
+        }
+
+        .info-card h3 {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .info-card .value {
+            font-size: 16px;
+            font-weight: 700;
+            color: #FFFFFF;
+            font-family: 'JetBrains Mono', monospace;
+            word-break: break-all;
+        }
+
+        .info-card .sub-value {
+            font-size: 13px;
+            color: var(--accent-blue);
+            margin-top: 6px;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .coverage-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background: rgba(0, 158, 227, 0.1);
+            border: 1px solid rgba(0, 158, 227, 0.25);
+            color: #38BDF8;
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .footer-bar {
+            background: #0B0E14;
+            padding: 20px 32px;
+            border-top: 1px solid var(--border-card);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .links-bar {
+            display: flex;
+            gap: 14px;
+        }
+
+        .links-bar a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .links-bar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="brand-badge">
+                <div class="logo-icon">SC</div>
+                <div class="brand-title">
+                    <h1>Soluciones de Cobro</h1>
+                    <p>Asesor Comercial Oficial Point Mercado Pago — Zona Norte</p>
+                </div>
+            </div>
+            <div class="live-status">
+                <div class="live-pulse"></div>
+                VERIFICACIÓN ACTIVA &bull; EN LÍNEA
+            </div>
+        </div>
+
+        <!-- Content Grid -->
+        <div class="body-content">
+            <!-- Dominio Oficial -->
+            <div class="info-card">
+                <h3>🌐 Dominio Oficial & Producción</h3>
+                <div class="value">solucionesdecobro.com.ar</div>
+                <div class="sub-value">🔒 SSL Cloudflare Activo &bull; HTTPS Seguro</div>
+            </div>
+
+            <!-- Red & Host -->
+            <div class="info-card">
+                <h3>⚡ Infraestructura CDN & DNS</h3>
+                <div class="value">Cloudflare Pages Global CDN</div>
+                <div class="sub-value">Nameservers: cartman / dolly.ns.cloudflare.com</div>
+            </div>
+
+            <!-- Titularidad Comercial -->
+            <div class="info-card">
+                <h3>💼 Servicio Comercial</h3>
+                <div class="value">Distribución & Asesoría Point</div>
+                <div class="sub-value">Atención Presencial a Comercios & Monotributistas</div>
+            </div>
+
+            <!-- Cobertura -->
+            <div class="info-card full-width">
+                <h3>📍 Área de Cobertura Geográfica Oficial (Zona Norte GBA)</h3>
+                <div class="coverage-tags">
+                    <span class="tag">✓ San Fernando</span>
+                    <span class="tag">✓ Tigre</span>
+                    <span class="tag">✓ San Isidro</span>
+                    <span class="tag">✓ Vicente López</span>
+                    <span class="tag">✓ Envíos a todo el país vía Mercado Envíos</span>
+                </div>
+            </div>
+
+            <!-- Canales Directos -->
+            <div class="info-card full-width">
+                <h3>📱 Canales de Contacto Verificados</h3>
+                <div style="display: flex; gap: 24px; flex-wrap: wrap; margin-top: 6px;">
+                    <div>
+                        <span style="color: var(--text-muted); font-size: 12px; display: block;">WhatsApp Comercial:</span>
+                        <strong style="color: #FFFFFF; font-size: 15px; font-family: 'JetBrains Mono';">+54 9 11 3855-4089</strong>
+                    </div>
+                    <div>
+                        <span style="color: var(--text-muted); font-size: 12px; display: block;">Landing Page Principal:</span>
+                        <a href="https://solucionesdecobro.com.ar" target="_blank" style="color: var(--accent-blue); text-decoration: none; font-weight: 600; font-family: 'JetBrains Mono';">https://solucionesdecobro.com.ar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-bar">
+            <div>
+                Google Business Profile Verification Proof &bull; Registro ID: <strong>SC-ZN-2026</strong>
+            </div>
+            <div class="links-bar">
+                <a href="index.html" target="_blank">Abrir Web Principal ↗</a>
+                <a href="privacidad.html" target="_blank">Políticas de Privacidad ↗</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
