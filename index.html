@@ -1716,18 +1716,25 @@
       }
     }
 
-    function reportGoogleAdsConversion() {
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
       if (typeof gtag === 'function') {
         gtag('event', 'conversion', {
-          'send_to': 'AW-18484728280/sm-ICI-y4IsdENijmu5E',
-          'value': 1.0,
-          'currency': 'ARS'
+            'send_to': 'AW-18484728280/sm-ICI-y4IsdENijmu5E',
+            'value': 1.0,
+            'currency': 'ARS',
+            'event_callback': callback
         });
       }
+      return false;
     }
 
     function submitModalLead() {
-      reportGoogleAdsConversion();
+      gtag_report_conversion();
       const comercio = encodeURIComponent(document.getElementById('modalComercio').value.trim());
       const condicion = encodeURIComponent(document.getElementById('modalCondicion').value);
       const tipo = encodeURIComponent(document.getElementById('modalTipo').value);
@@ -1749,7 +1756,7 @@
     }
 
     function submitLeadWhatsApp() {
-      reportGoogleAdsConversion();
+      gtag_report_conversion();
       const comercio = encodeURIComponent(document.getElementById('comercio').value.trim());
       const cuit = encodeURIComponent(document.getElementById('cuit').value.trim());
       const condicion = encodeURIComponent(document.getElementById('condicion').value);
